@@ -5,9 +5,9 @@ from netmiko import ConnectHandler
 cisco_881 = {
     'device_type': 'cisco_ios',
     'host':   'mad6-co-acc-v1.amazon.com',
-    'username': 'renguill',
-    'password': 'Escanor47!',
-    'secret': 'Escanor47!'
+    'username': 'NotRealID',
+    'password': 'NotMyPassword',
+    'secret': 'NotMyPassword'
 }
 
 net_connect = ConnectHandler(**cisco_881)
